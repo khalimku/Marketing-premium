@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produk Digital Software - Landing Page</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome Icons CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            red: '#E52D27',
+                            darkred: '#B31217',
+                            blue: '#0041FF',
+                            gold: '#FBCB38',
+                            green: '#28AD00'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Open Sans', 'sans-serif'],
+                        heading: ['Poppins', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .clip-curve {
+            clip-path: ellipse(150% 100% at 50% 0%);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans antialiased">
+
+    <!-- HERO SECTION -->
+    <section class="relative bg-gradient-to-br from-brand-red to-brand-darkred text-white pt-16 pb-48 px-4 sm:px-6 lg:px-8 clip-curve">
+        <div class="max-w-4xl mx-auto text-center space-y-6">
+            <h1 class="font-heading font-extrabold text-3xl sm:text-5xl lg:text-6xl leading-tight">
+                Mudahnya Mencari Audience Youtube Tertarget Dengan Software Ajaib Ini
+            </h1>
+            <p class="text-lg sm:text-xl text-red-100 max-w-2xl mx-auto font-medium">
+                Solusi praktis dan cepat untuk menemukan audiens potensial, meningkatkan konversi, serta mengoptimalkan strategi marketing YouTube Anda.
+            </p>
+            <div class="pt-4">
+                <a href="#beli" class="inline-flex items-center justify-center gap-3 bg-brand-blue hover:bg-blue-700 text-white font-bold text-lg px-8 py-4 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-0.5">
+                    <i class="fas fa-shopping-cart"></i>
+                    Beli Sekarang
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- VIDEO EMBED OVERLAY -->
+    <section class="-mt-36 relative z-10 px-4 sm:px-6 max-w-4xl mx-auto">
+        <div class="bg-white p-2 sm:p-4 rounded-2xl shadow-2xl overflow-hidden border border-gray-100">
+            <div class="relative aspect-video rounded-xl overflow-hidden bg-black">
+                <iframe class="w-full h-full" src="https://www.youtube.com/embed/XHOmBV4js_E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- HIGHLIGHT BADGES -->
+    <section class="py-16 px-4 max-w-6xl mx-auto">
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-6 text-center">
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 flex flex-col items-center hover:shadow-md transition">
+                <div class="w-12 h-12 bg-red-100 text-brand-red rounded-lg flex items-center justify-center text-2xl mb-3">
+                    <i class="fas fa-check-circle"></i>
+                </div>
+                <h3 class="font-bold text-gray-700">Mudah Digunakan</h3>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 flex flex-col items-center hover:shadow-md transition">
+                <div class="w-12 h-12 bg-red-100 text-brand-red rounded-lg flex items-center justify-center text-2xl mb-3">
+                    <i class="fas fa-download"></i>
+                </div>
+                <h3 class="font-bold text-gray-700">Unlimited Instal</h3>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 flex flex-col items-center hover:shadow-md transition">
+                <div class="w-12 h-12 bg-red-100 text-brand-red rounded-lg flex items-center justify-center text-2xl mb-3">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <h3 class="font-bold text-gray-700">Insight Performance</h3>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 flex flex-col items-center hover:shadow-md transition">
+                <div class="w-12 h-12 bg-red-100 text-brand-red rounded-lg flex items-center justify-center text-2xl mb-3">
+                    <i class="fas fa-users-cog"></i>
+                </div>
+                <h3 class="font-bold text-gray-700">Fitur Sub-account</h3>
+            </div>
+            <div class="col-span-2 md:col-span-1 bg-white p-6 rounded-xl shadow-sm border border-gray-100 flex flex-col items-center hover:shadow-md transition">
+                <div class="w-12 h-12 bg-red-100 text-brand-red rounded-lg flex items-center justify-center text-2xl mb-3">
+                    <i class="fas fa-infinity"></i>
+                </div>
+                <h3 class="font-bold text-gray-700">Unlimited Akun</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- SALES LETTER / INTRO -->
+    <section class="bg-gradient-to-b from-brand-red to-brand-darkred text-white py-16 px-4">
+        <div class="max-w-3xl mx-auto space-y-6 text-lg leading-relaxed">
+            <h2 class="font-heading font-extrabold text-2xl sm:text-3xl border-b border-red-400/40 pb-3">Halo Marketers,</h2>
+            <p>
+                Apakah Anda sering merasa kesulitan mencari audiens yang benar-benar tertarik dengan produk atau layanan Anda di YouTube? Banyak pemasar menghabiskan waktu bertumpuk-tumpuk jam hanya untuk meriset target pasar secara manual tanpa hasil yang signifikan.
+            </p>
+            <p>
+                Kini Anda tidak perlu khawatir lagi! Dengan bantuan software ini, seluruh proses otomatisasi riset audiens dapat dilakukan hanya dalam beberapa klik mudah. Hemat waktu, tingkatkan efisiensi, dan fokuslah pada pertumbuhan bisnis Anda.
+            </p>
+        </div>
+    </section>
+
+    <!-- PRODUCT INTRODUCTION -->
+    <section class="py-20 px-4 bg-brand-gold text-gray-900">
+        <div class="max-w-4xl mx-auto text-center space-y-6">
+            <span class="text-sm uppercase tracking-widest font-extrabold text-gray-800">Memperkenalkan</span>
+            <h2 class="font-heading text-3xl sm:text-5xl font-extrabold">Nama Produk Kamu Disini</h2>
+            <div class="w-20 h-1 bg-purple-900 mx-auto my-4 rounded-full"></div>
+            
+            <div class="py-6">
+                <img src="https://landingsuite.com/wp-content/uploads/2020/06/BXLE5.png" alt="Product Mockup" class="mx-auto max-w-sm sm:max-w-md w-full drop-shadow-2xl">
+            </div>
+
+            <p class="text-lg max-w-2xl mx-auto leading-relaxed">
+                Software revolusioner yang dirancang khusus untuk mempermudah strategi YouTube Marketing Anda secara terukur, efisien, dan otomatis.
+            </p>
+        </div>
+    </section>
+
+    <!-- FEATURES LIST SECTION 1 -->
+    <section class="py-16 px-4 max-w-6xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div>
+                <img src="https://landingsuite.com/wp-content/uploads/2020/06/FAVPNG_landing-page-online-advertising-internet_BM3DSzRH-1.png" alt="Feature Image" class="w-full max-w-md mx-auto">
+            </div>
+            <div class="space-y-6">
+                <span class="text-sm font-bold text-gray-500 uppercase">Fitur Benefit Utama</span>
+                <h2 class="font-heading text-3xl font-extrabold text-brand-red">Fitur Utama Produk Software Kamu</h2>
+                <p class="text-gray-600 leading-relaxed">
+                    Dapatkan akses ke fitur terdepan yang membantu riset pasar Anda menjadi jauh lebih akurat dan cepat.
+                </p>
+                <ul class="space-y-3">
+                    <li class="flex items-start gap-3 text-gray-700">
+                        <i class="fas fa-check-circle text-brand-red text-xl mt-1"></i>
+                        <span>Otomatisasi pencarian audiens spesifik berdasarkan keyword & kategori channel.</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-gray-700">
+                        <i class="fas fa-check-circle text-brand-red text-xl mt-1"></i>
+                        <span>Ekspor data hasil riset dengan mudah ke format dokumen siap pakai.</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-gray-700">
+                        <i class="fas fa-check-circle text-brand-red text-xl mt-1"></i>
+                        <span>Integrasi cepat tanpa memerlukan keahlian koding teknis.</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURES GRID SECTION -->
+    <section class="py-16 bg-gray-100 px-4">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Feature Card 1 -->
+            <div class="bg-white p-8 rounded-2xl shadow-md border border-gray-100 space-y-4">
+                <span class="text-sm font-bold text-gray-400">Fitur Unggulan Lain</span>
+                <h3 class="font-heading text-2xl font-bold text-brand-red">Analisis Kompetitor Serupa</h3>
+                <p class="text-gray-600 leading-relaxed">
+                    Pelajari strategi konten dan interaksi audiens dari kompetitor utama Anda di industri secara mendalam.
+                </p>
+                <img src="https://landingsuite.com/wp-content/uploads/2020/06/FAVPNG_web-page-landing-page-brand-advertising-marketing_FLB193cJ-1.png" alt="Feature Mockup" class="pt-4 max-h-48 mx-auto">
+            </div>
+
+            <!-- Feature Card 2 -->
+            <div class="bg-white p-8 rounded-2xl shadow-md border border-gray-100 space-y-4">
+                <span class="text-sm font-bold text-gray-400">Fitur Unggulan Lain</span>
+                <h3 class="font-heading text-2xl font-bold text-brand-red">Manajemen Sub-Account</h3>
+                <p class="text-gray-600 leading-relaxed">
+                    Bagikan akses software kepada tim Anda tanpa perlu berbagi kredensial akun utama.
+                </p>
+                <img src="https://landingsuite.com/wp-content/uploads/2020/06/FAVPNG_web-page-landing-page-brand-advertising-marketing_FLB193cJ-1.png" alt="Feature Mockup" class="pt-4 max-h-48 mx-auto">
+            </div>
+        </div>
+    </section>
+
+    <!-- TARGET AUDIENCE SECTION -->
+    <section class="py-20 bg-brand-red text-white px-4">
+        <div class="max-w-5xl mx-auto text-center space-y-8">
+            <h2 class="font-heading text-3xl sm:text-4xl font-extrabold">Software Ini Cucok Untuk</h2>
+            <div class="w-16 h-1 bg-white mx-auto rounded-full"></div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-6">
+                <div class="bg-red-800/50 p-6 rounded-xl border border-red-400/30 flex items-center gap-4">
+                    <i class="fas fa-check-circle text-2xl text-yellow-300"></i>
+                    <span class="font-bold text-lg text-left">Digital Marketer</span>
+                </div>
+                <div class="bg-red-800/50 p-6 rounded-xl border border-red-400/30 flex items-center gap-4">
+                    <i class="fas fa-check-circle text-2xl text-yellow-300"></i>
+                    <span class="font-bold text-lg text-left">YouTuber & Creator</span>
+                </div>
+                <div class="bg-red-800/50 p-6 rounded-xl border border-red-400/30 flex items-center gap-4">
+                    <i class="fas fa-check-circle text-2xl text-yellow-300"></i>
+                    <span class="font-bold text-lg text-left">Pemilik Olshop</span>
+                </div>
+                <div class="bg-red-800/50 p-6 rounded-xl border border-red-400/30 flex items-center gap-4">
+                    <i class="fas fa-check-circle text-2xl text-yellow-300"></i>
+                    <span class="font-bold text-lg text-left">Agensi Iklan</span>
+                </div>
+                <div class="bg-red-800/50 p-6 rounded-xl border border-red-400/30 flex items-center gap-4">
+                    <i class="fas fa-check-circle text-2xl text-yellow-300"></i>
+                    <span class="font-bold text-lg text-left">Affiliate Marketer</span>
+                </div>
+                <div class="bg-red-800/50 p-6 rounded-xl border border-red-400/30 flex items-center gap-4">
+                    <i class="fas fa-check-circle text-2xl text-yellow-300"></i>
+                    <span class="font-bold text-lg text-left">Business Owner</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRICING SECTION -->
+    <section id="beli" class="py-20 px-4 max-w-6xl mx-auto">
+        <div class="text-center space-y-4 mb-12">
+            <h2 class="font-heading text-4xl font-extrabold text-brand-red">Pilih Paket Investasi Anda</h2>
+            <div class="w-16 h-1 bg-gray-400 mx-auto rounded-full"></div>
+            <p class="text-gray-600">Dapatkan lisensi terbaik sesuai kebutuhan bisnis Anda hari ini.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
+            <!-- Paket Silver -->
+            <div class="bg-white border-2 border-purple-900 rounded-2xl p-8 flex flex-col justify-between hover:shadow-xl transition">
+                <div class="space-y-4">
+                    <span class="text-xs uppercase font-extrabold tracking-widest text-brand-red block text-center">Basic Plan</span>
+                    <h3 class="font-heading text-3xl font-bold text-center text-brand-red">Paket Silver</h3>
+                    <div class="text-center">
+                        <span class="text-gray-400 line-through text-sm">Rp 600.000</span>
+                        <div class="text-4xl font-extrabold text-brand-red mt-1">Rp 300.000</div>
+                    </div>
+                    <hr class="border-dashed border-gray-200">
+                    <ul class="space-y-3 py-4 text-gray-600 text-sm">
+                        <li class="flex items-center gap-2"><i class="fas fa-check text-green-500"></i> Fitur Keren 1</li>
+                        <li class="flex items-center gap-2"><i class="fas fa-check text-green-500"></i> Fitur Keren 2</li>
+                        <li class="flex items-center gap-2"><i class="fas fa-check text-green-500"></i> Fitur Keren 3</li>
+                        <li class="flex items-center gap-2"><i class="fas fa-check text-green-500"></i> Fitur Keren 4</li>
+                    </ul>
+                </div>
+                <a href="#" class="mt-6 w-full text-center bg-brand-red hover:bg-red-700 text-white font-bold py-3 px-6 rounded-full shadow transition">
+                    Beli Sekarang
+                </a>
+            </div>
+
+            <!-- Paket Gold (Popular) -->
+            <div class="bg-brand-red text-white rounded-2xl p-8 flex flex-col justify-between shadow-2xl transform md:-translate-y-4 border-4 border-yellow-400 relative">
+                <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-yellow-400 text-gray-900 text-xs font-black uppercase px-4 py-1 rounded-full shadow">
+                    Paling Populer
+                </div>
+                <div class="space-y-4 pt-2">
+                    <span class="text-xs uppercase font-extrabold tracking-widest text-white/80 block text-center">Professional</span>
+                    <h3 class="font-heading text-3xl font-bold text-center">Paket Gold</h3>
+                    <div class="text-center">
+                        <span class="text-white/70 line-through text-sm">Rp 700.000</span>
+                        <div class="text-4xl font-extrabold mt-1">Rp 350.000</div>
+                    </div>
+                    <hr class="border-dashed border-white/30">
+                    <ul class="space-y-3 py-4 text-white/90 text-sm">
+                        <li class="flex items-center gap-2"><i class="fas fa-check text-yellow-300"></i> Fitur Keren 1</li>
+                        <li class="flex items-center gap-2"><i class="fas fa-check text-yellow-300"></i> Fitur Keren 2</li>
+                        <li class="flex items-center gap-2"><i class="fas fa-check text-yellow-300"></i> Fitur Keren 3</li>
+                        <li class="flex items-center gap-2"><i class="fas fa-check text-yellow-300"></i> Fitur Keren 4</li>
+                        <li class="flex items-center gap-2"><i class="fas fa-check text-yellow-300"></i> Fitur Keren 5 (Bonus)</li>
+                    </ul>
+                </div>
+                <a href="#" class="mt-6 w-full text-center bg-white text-brand-red hover:bg-gray-100 font-bold py-3 px-6 rounded-full shadow transition">
+                    Beli Sekarang
+                </a>
+            </div>
+
+            <!-- Paket Platinum -->
+            <div class="bg-white border-2 border-purple-900 rounded-2xl p-8 flex flex-col justify-between hover:shadow-xl transition">
+                <div class="space-y-4">
+                    <span class="text-xs uppercase font-extrabold tracking-widest text-brand-red block text-center">Exclusive</span>
+                    <h3 class="font-heading text-3xl font-bold text-center text-brand-red">Paket Platinum</h3>
+                    <div class="text-center">
+                        <span class="text-gray-400 line-through text-sm">Rp 650.000</span>
+                        <div class="text-4xl font-extrabold text-brand-red mt-1">Rp 325.000</div>
+                    </div>
+                    <hr class="border-dashed border-gray-200">
+                    <ul class="space-y-3 py-4 text-gray-600 text-sm">
+                        <li class="flex items-center gap-2"><i class="fas fa-check text-green-500"></i> Fitur Keren 1</li>
+                        <li class="flex items-center gap-2"><i class="fas fa-check text-green-500"></i> Fitur Keren 2</li>
+                        <li class="flex items-center gap-2"><i class="fas fa-check text-green-500"></i> Fitur Keren 3</li>
+                        <li class="flex items-center gap-2"><i class="fas fa-check text-green-500"></i> Fitur Keren 4</li>
+                    </ul>
+                </div>
+                <a href="#" class="mt-6 w-full text-center bg-brand-red hover:bg-red-700 text-white font-bold py-3 px-6 rounded-full shadow transition">
+                    Beli Sekarang
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- GUARANTEE SECTION -->
+    <section class="py-12 bg-brand-red text-white px-4">
+        <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-8 bg-red-800/40 p-8 rounded-2xl border border-white/20">
+            <img src="https://landingsuite.com/wp-content/uploads/2020/04/pngkit_money-back-guarantee-png_733762-1.png" alt="Money Back Guarantee" class="w-36 h-36 object-contain">
+            <div class="space-y-3 text-center md:text-left">
+                <h3 class="font-heading text-2xl font-bold">Garansi 30 Hari Uang Kembali</h3>
+                <p class="text-red-100 leading-relaxed text-sm">
+                    Kami sangat yakin dengan kualitas software ini. Jika dalam 30 hari penggunaan Anda merasa software ini tidak memberikan nilai tambah bagi bisnis Anda, hubungi tim support kami untuk pengembalian dana 100% tanpa pertanyaan.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section class="py-20 px-4 max-w-6xl mx-auto">
+        <div class="text-center space-y-4 mb-12">
+            <h2 class="font-heading text-3xl font-extrabold text-brand-red">Apa Kata Mereka</h2>
+            <div class="w-16 h-1 bg-gray-400 mx-auto rounded-full"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Testimonial 1 -->
+            <div class="bg-white p-6 rounded-xl shadow border border-gray-100 flex gap-4 items-start">
+                <img src="https://landingsuite.com/wp-content/uploads/2020/04/team_4.jpg" alt="Joni" class="w-16 h-16 rounded-full object-cover">
+                <div>
+                    <p class="text-gray-600 text-sm leading-relaxed mb-3">
+                        "Sangat membantu riset audiens target kami. Penggunaannya intuitif dan menghemat banyak jam kerja setiap minggunya."
+                    </p>
+                    <h4 class="font-bold text-gray-800">Joni</h4>
+                    <span class="text-xs text-gray-500">Designer</span>
+                </div>
+            </div>
+
+            <!-- Testimonial 2 -->
+            <div class="bg-white p-6 rounded-xl shadow border border-gray-100 flex gap-4 items-start">
+                <img src="https://landingsuite.com/wp-content/uploads/2020/04/444fdssfds.jpg" alt="Budi" class="w-16 h-16 rounded-full object-cover">
+                <div>
+                    <p class="text-gray-600 text-sm leading-relaxed mb-3">
+                        "Software paling worth it yang pernah saya beli tahun ini. Hasil risetnya sangat presisi!"
+                    </p>
+                    <h4 class="font-bold text-gray-800">Budi</h4>
+                    <span class="text-xs text-gray-500">Karyawan</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section class="py-16 bg-gray-100 px-4">
+        <div class="max-w-4xl mx-auto space-y-8">
+            <h2 class="font-heading text-3xl font-extrabold text-center text-brand-red">Frequently Asked Questions</h2>
+            
+            <div class="space-y-4" id="faq-accordion">
+                <!-- FAQ Item 1 -->
+                <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-5 cursor-pointer" onclick="toggleFaq(this)">
+                    <div class="flex justify-between items-center font-bold text-brand-red">
+                        <span>Apakah software ini sulit digunakan?</span>
+                        <i class="fas fa-chevron-down transition-transform"></i>
+                    </div>
+                    <p class="text-gray-600 text-sm mt-3 hidden">
+                        Sangat mudah! Software dirancang dengan antarmuka yang ramah pengguna. Tersedia juga panduan video tutorial langkah demi langkah.
+                    </p>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-5 cursor-pointer" onclick="toggleFaq(this)">
+                    <div class="flex justify-between items-center font-bold text-brand-red">
+                        <span>Apakah ada biaya bulanan?</span>
+                        <i class="fas fa-chevron-down transition-transform"></i>
+                    </div>
+                    <p class="text-gray-600 text-sm mt-3 hidden">
+                        Tidak ada! Pembelian saat ini adalah sekali bayar (One-time payment) untuk lisensi yang Anda pilih.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER CTA & OWNER -->
+    <footer class="bg-brand-red text-white py-16 px-4">
+        <div class="max-w-xl mx-auto text-center space-y-6">
+            <img src="https://landingsuite.com/wp-content/uploads/2020/06/444fdssfds.jpg" alt="Jono Susilo" class="w-24 h-24 rounded-full mx-auto object-cover border-4 border-white shadow-md">
+            <div>
+                <h3 class="font-bold text-xl">Jono Susilo</h3>
+                <p class="text-red-200 text-sm">Entrepreneur</p>
+            </div>
+
+            <div class="flex flex-col sm:flex-row justify-center gap-4 pt-4">
+                <a href="#beli" class="bg-white text-brand-red hover:bg-gray-100 font-bold px-6 py-3 rounded-lg shadow transition inline-flex items-center justify-center gap-2">
+                    <i class="fas fa-shopping-cart"></i> Beli Sekarang
+                </a>
+                <a href="#" class="bg-brand-green hover:bg-green-600 text-white font-bold px-6 py-3 rounded-lg shadow transition inline-flex items-center justify-center gap-2">
+                    <i class="fab fa-whatsapp"></i> Chat Whatsapp
+                </a>
+            </div>
+
+            <hr class="border-red-400/30 my-6">
+            <p class="text-xs text-red-200">Copyright &copy; 2026 - Your Domain. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- DISCLAIMER FOOTER -->
+    <div class="bg-black text-gray-400 py-6 px-4 text-center text-xs space-y-2">
+        <div class="font-bold text-white uppercase tracking-wider mb-2">Disclaimer</div>
+        <p class="max-w-4xl mx-auto leading-relaxed">
+            Situs web ini tidak berafiliasi dengan YouTube atau Google Inc. Hasil yang diperoleh setiap individu dapat bervariasi tergantung pada implementasi dan strategi masing-masing pengguna.
+        </p>
+    </div>
+
+    <!-- SIMPLE FAQ JS INTERACTION -->
+    <script>
+        function toggleFaq(element) {
+            const content = element.querySelector('p');
+            const icon = element.querySelector('i');
+            content.classList.toggle('hidden');
+            icon.classList.toggle('rotate-180');
+        }
+    </script>
+</body>
+</html>
